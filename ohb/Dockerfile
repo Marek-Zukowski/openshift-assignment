@@ -21,7 +21,7 @@ COPY s.sh /s.sh
 RUN chmod 755 /s.sh
 
 WORKDIR /app
-EXPOSE 7778
+EXPOSE 7777
 ENV STORAGE_TYPE file
 
 CMD [ "./app.sh" ]
